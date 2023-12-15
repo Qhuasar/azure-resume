@@ -2,7 +2,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
   getVisitCount();
 });
 
-const import_api = '';
+const import_api = 'http://localhost:7071/api/GetCounter';
 
 const getVisitCount = () => {
   let count = 30;
